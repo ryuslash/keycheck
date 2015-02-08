@@ -1,0 +1,22 @@
+* Keycheck
+
+  Until I come up with a better name.
+
+  Quickly check to see if a keyring is locked or unlocked.
+
+** Requirements
+
+   Keycheck requires both Vala and libsecret be installed and requires
+   Gnome Keyring Daemon is running.
+
+** Usage
+
+   To check if the default keyring is locked or unlocked call keycheck
+   without any arguments:
+
+   : keycheck
+
+   To check whether any other keyring is locked or unlocked pass the
+   name along:
+
+   : keycheck ring_name
